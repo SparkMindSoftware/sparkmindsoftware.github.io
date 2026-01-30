@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Beepline – GPS Line Alarm</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+    background: #f9f9f9;
+    color: #222;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  h1, h2 {
+    color: #0077cc;
+  }
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .section.reverse {
+    flex-direction: row-reverse;
+  }
+  .section img {
+    width: 45%;
+    min-width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .section .text {
+    width: 50%;
+    min-width: 280px;
+  }
+  /* Responsiveness for smaller screens */
+  @media (max-width: 640px) {
+    .section {
+      flex-direction: column !important;
+    }
+    .section img, .section .text {
+      width: 100%;
+      min-width: auto;
+    }
+  }
+  .header-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  }
+  .footer-logo {
+    display: block;
+    margin: 40px auto 0;
+    width: 200px;
+  }
+  .full-width-img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 40px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <img src="Beepline_header.jpg" alt="Beepline header" class="header-img" />
+
+  <h1>Beepline – GPS Line Alarm</h1>
+  <p><strong>Navigate confidently. Cross the line – get alerted.</strong></p>
+
+  <!-- Two-column sections -->
+
+  <div class="section">
+    <img src="mapa.jpg" alt="City map with multiple routes" />
+    <div class="text">
+      <h2>Precise GPS line crossing alerts</h2>
+      <p>Not just circular zones, but longitude and latitude lines defining the boundaries of your route or area. Beepline alerts you exactly when you cross a set boundary line.</p>
+    </div>
+  </div>
+
+  <div class="section reverse">
+    <img src="mountain.jpg" alt="Hiker in the mountains" />
+    <div class="text">
+      <h2>Flexible navigation options in city and outdoors</h2>
+      <p>With Beepline, easily find the right path in the city, avoid traffic jams and unnecessary detours, and set safe boundaries during mountain hikes or water trips.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <img src="venice.jpg" alt="Venice bird's eye view with marked line on the bridge" />
+    <div class="text">
+      <h2>Plan your trip and stick to your route</h2>
+      <p>Select multiple boundary points that define your path – Beepline will notify you as soon as you cross a line, helping you stay on track.</p>
+    </div>
+  </div>
+
+  <div class="section reverse">
+    <img src="city.jpg" alt="Man walking in the city with backpack and smartphone" />
+    <div class="text">
+      <h2>Perfect for urban explorers, sailors, and adventurers</h2>
+      <p>Whether you're sightseeing in Venice, hiking in the mountains, or sailing on the ocean – Beepline supports you in every situation.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <img src="ocean.jpg" alt="Sailboat on the ocean" />
+    <div class="text">
+      <h2>Simple operation and battery saving</h2>
+      <p>A lightweight app running in the background, minimally using energy and working reliably.</p>
+    </div>
+  </div>
+
+  <div class="section reverse">
+    <img src="robota.jpg" alt="Excavator on a construction site" />
+    <div class="text">
+      <h2>Support in various situations</h2>
+      <p>Beepline is also useful at construction sites, helping you keep designated boundaries and ensure safety.</p>
+    </div>
+  </div>
+
+  <!-- Bottom map image -->
+  <img src="mapgps.jpg" alt="GPS map as bottom frame" class="full-width-img" />
+
+  <!-- Logo at the bottom -->
+  <img src="beepline.jpg" alt="Beepline logo" class="footer-logo" />
+
+</div>
+
+</body>
+</html>
